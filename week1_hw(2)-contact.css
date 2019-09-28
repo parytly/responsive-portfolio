@@ -1,0 +1,125 @@
+body{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 25px solid black;
+
+}
+span{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  float: left;
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+nav{
+    float: right;
+    color: #777777;
+    word-spacing: 1em;
+    margin: 20px auto;
+}
+a:link{
+    text-decoration: none;
+    color: #777777;
+}
+#contactText{
+    color: #4aaaa5;
+}
+header{
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    width: 175px;
+    height: 70px;
+    text-align:center;
+    float: left;
+    margin: 0 auto;
+    margin-left: 195px;
+}
+.content{
+    clear: both;
+    background-color: rgba(211, 211, 211, 0.39);
+    height: 871px;
+    width: 100%;
+    padding-top: 30px;
+
+}
+.form-input{
+    background-color: white;
+    width: 650px;
+    padding: 20px 20px;
+    margin: auto;
+}
+img{
+float:left;
+margin: 5px 10px;
+margin-right: 20px;
+}
+p{
+    line-height: 1.8;
+}
+footer{
+    font-size: 10px;
+    text-align: center;
+    background-color: #666666;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top:8px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+#submit_button{
+    background-color: #4aaaa5;
+    color: white;
+}
+@media screen and (max-width: 980px) {
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .main-content,{
+      width: 100%;
+    }
+
+    .form-input{
+        width:700px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      /* Box-model */
+      width: auto;
+      padding: 20px;
+    }
+  
+    .main-content,{
+      width: 100%;
+    }
+
+    .form-input{
+        width:500px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .content{
+        background-color: grey;
+    }
+    .wrapper {
+      /* Box-model */
+      width: auto;
+      padding: 20px;
+    }
+  
+    .main-content, p{
+      width: 100%;
+    }
+    .form-input{
+        width:400px;
+    }
+  }
